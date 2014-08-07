@@ -7,7 +7,6 @@ __author__ = 'x243'
 import bigsuds
 import os
 import logging
-import logging.handlers
 import smtplib
 import socket
 import splunklib.client as client
@@ -16,6 +15,11 @@ from time import sleep
 
 
 def setup_logger(level):
+    """
+        @param level: Logging level
+        @type level: logger object
+        @rtype: logger object
+    """
     logger = logging.getLogger('splunk_cycle')
     logger.propagate = False # Prevent the log messages from being duplicated in the python.log file
     logger.setLevel(level)
@@ -208,7 +212,7 @@ class f5cycle():
             if status['availability_status'] != 'AVAILABILITY_STATUS_GREEN' \
                     or status['enabled_status'] != 'ENABLED_STATUS_ENABLED':
                 downmembers.append(memberobject['member'])
-        return downmembers
+        return dict(downmembers=downmembers, members=members)
 
     def verifypool(self, poolname=None):
         poolstatus = self.poolstatus(poolname)
@@ -231,6 +235,7 @@ if __name__ == '__main__':
     # finds execution path and builds config location
     executepath = os.path.dirname(__file__)
     configfile = os.path.join(executepath, 'splunk_cycle.cfg')
+
     # try to log configs
     if not os.path.isfile(configfile):
         logger.info('% not found.' % configfile)
@@ -268,9 +273,9 @@ if __name__ == '__main__':
         exit(0)
 
     # verifies all members
-    downmembers = splunkf5.verifymembers(poolname)
-    if len(downmembers) > 0:
-        msg = 'down members: %s' % downmembers
+    memberstatus = splunkf5.verifymembers(poolname)
+    if len(memberstatus['downmembers']) > 0:
+        msg = 'down members: %s' % memberstatus['downmembers']
         logger.info(msg)
         sendmail([email['recipients']], email['from'], email['subject'], msg ,relay=email['smtprelay'])
         logger.info('mail sent')
@@ -278,7 +283,7 @@ if __name__ == '__main__':
     logger.info('Pool verified')
 
     # starts managing pool members0
-    for memberobject in members:
+    for memberobject in memberstatus['members']:
         member = memberobject['member']
         current_conn = splunkf5.getconnections(poolname, member)
         logger.info('disabling %s in %s' % (member, poolname))
