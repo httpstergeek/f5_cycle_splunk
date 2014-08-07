@@ -7,7 +7,6 @@ __author__ = 'x243'
 import bigsuds
 import os
 import logging
-import logging.handlers
 import smtplib
 import socket
 import splunklib.client as client
@@ -16,6 +15,11 @@ from time import sleep
 
 
 def setup_logger(level):
+    """
+        @param level: Logging level
+        @type level: logger object
+        @rtype: logger object
+    """
     logger = logging.getLogger('splunk_cycle')
     logger.propagate = False # Prevent the log messages from being duplicated in the python.log file
     logger.setLevel(level)
@@ -231,6 +235,7 @@ if __name__ == '__main__':
     # finds execution path and builds config location
     executepath = os.path.dirname(__file__)
     configfile = os.path.join(executepath, 'splunk_cycle.cfg')
+
     # try to log configs
     if not os.path.isfile(configfile):
         logger.info('% not found.' % configfile)
