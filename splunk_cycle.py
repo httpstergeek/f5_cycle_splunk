@@ -159,8 +159,8 @@ class f5cycle():
             @type poolname: str
             @rtype: list
         """
-        self.mstatus = self.f5.LocalLB.PoolMember.get_object_status([poolname])[0]
-        return self.mstatus
+        mstatus = self.f5.LocalLB.PoolMember.get_object_status([poolname])[0]
+        return mstatus
 
     def setstatus(self, pool, member, state='enabled'):
         """
@@ -200,12 +200,8 @@ class f5cycle():
             @type pool: str
             @rtype: list
         """
-        if not self.mstatus or poolname:
-            self.memberstatus(poolname)
-        if not isinstance(self.mstatus, list):
-            members = [self.mstatus]
-        else:
-            members = self.mstatus
+
+        members = self.memberstatus(poolname)
         downmembers = []
         for memberobject in members:
             status = memberobject['object_status']
@@ -213,6 +209,14 @@ class f5cycle():
                     or status['enabled_status'] != 'ENABLED_STATUS_ENABLED':
                 downmembers.append(memberobject['member'])
         return downmembers
+
+    def verifypool(self, poolname=None):
+        poolstatus = self.poolstatus(poolname)
+        if poolstatus['availability_status'] != 'AVAILABILITY_STATUS_GREEN' \
+                or poolstatus['enabled_status'] != 'ENABLED_STATUS_ENABLED':
+            return False
+        return True
+
 
     def nodename(self, nodeaddress):
         partition = self.f5.Management.Partition.get_active_partition()
@@ -250,18 +254,21 @@ if __name__ == '__main__':
                        f5config['password'],
                        f5config['host'])
 
-    # validating f5 pool and members
+    # sets correct working partition
     partition = splunkf5.setpartition(f5config['partition'])
     logger.info('active partition set: %s' % partition)
-    poolstatus = splunkf5.poolstatus(f5config['pool'])
-    if poolstatus['availability_status'] != 'AVAILABILITY_STATUS_GREEN' \
-        or poolstatus['enabled_status'] != 'ENABLED_STATUS_ENABLED':
-        logger.info('%s did not pass verification: % %' % (poolname,
-                                                           poolstatus['availability_status'],
-                                                           poolstatus['enabled_status']))
+
+    # verifes F5 pool
+    if not splunkf5.verifypool(poolname):
+        msg = '%s did not pass verification: % %' % (poolname,
+                                                     poolstatus['availability_status'],
+                                                     poolstatus['enabled_status'])
+        logger.info(msg)
+        sendmail([email['recipients']], email['from'], email['subject'], msg, relay=email['smtprelay'])
         exit(0)
-    members = splunkf5.memberstatus(poolname)
-    downmembers = splunkf5.verifymembers()
+
+    # verifies all members
+    downmembers = splunkf5.verifymembers(poolname)
     if len(downmembers) > 0:
         msg = 'down members: %s' % downmembers
         logger.info(msg)
@@ -269,6 +276,7 @@ if __name__ == '__main__':
         logger.info('mail sent')
         exit(0)
     logger.info('Pool verified')
+
     # starts managing pool members0
     for memberobject in members:
         member = memberobject['member']
@@ -285,6 +293,7 @@ if __name__ == '__main__':
                 break
         logger.info('%s splunk restarting' % member)
         cnt = 0
+
         # restarts splunk server
         while retries >= cnt:
             node = splunkf5.nodename(member['address'])
@@ -303,8 +312,9 @@ if __name__ == '__main__':
                 msg = '%s splunk restarted.  status %s returned' % (member, response['status'])
                 logger.info(msg)
                 break
-        memberdown = True
+
         # waiting for member status to return to AVAILABILITY_STATUS_GREEN and ENABLED_STATUS_ENABLED
+        memberdown = True
         while memberdown == True:
             curstatus = splunkf5.memberstatus(poolname)
             for memberobject in curstatus:
@@ -321,6 +331,7 @@ if __name__ == '__main__':
                 logger.info(msg)
                 sendmail([email['recipients']], email['from'], email['subject'], msg, relay=email['smtprelay'])
                 exit(0)
+
         logger.info('Enabling member: %s' % member)
         splunkf5.setstatus(poolname, member, 'enable')
     logger.info('%s members cycled ending run' % poolname)
