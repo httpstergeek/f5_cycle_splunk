@@ -1,0 +1,22 @@
+[f5]
+host = bip0319p07
+user = 
+password = 
+pool = prd.splunk.srch.443
+partition = EMG
+
+[splunk]
+host = localhost
+user = admin
+password = 
+retries = 3
+
+[email]
+recipients = beras@nordstrom.com
+from = splunkf5@nordstrom.net
+subject= Splunk F5 Cycle: WARNING
+smtprelay = exchange.nordstrom.net
+
+[runinfo]
+sleep = 30
+breaks = 14

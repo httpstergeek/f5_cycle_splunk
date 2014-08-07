@@ -1,0 +1,206 @@
+2014-08-06 17:07:20,891 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:07:20,891 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:07:49,570 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:07:49,571 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:14:04,298 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:14:04,298 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:14:05,103 INFO active partition set: EMG
+2014-08-06 17:22:59,051 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:22:59,052 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:22:59,781 INFO active partition set: EMG
+2014-08-06 17:23:37,263 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:23:37,264 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-06 17:23:37,996 INFO active partition set: EMG
+2014-08-07 10:43:24,765 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:43:24,766 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:43:24,767 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:43:24,767 INFO reading config file /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:43:25,567 INFO active partition set: EMG
+2014-08-07 10:45:58,595 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:45:59,336 INFO active partition set: EMG
+2014-08-07 10:47:45,892 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:47:46,625 INFO active partition set: EMG
+2014-08-07 10:51:21,841 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:51:22,580 INFO active partition set: EMG
+2014-08-07 10:52:19,937 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:52:20,673 INFO active partition set: EMG
+2014-08-07 10:55:26,060 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:55:26,797 INFO active partition set: EMG
+2014-08-07 10:55:28,866 INFO Pool verified
+2014-08-07 10:56:28,347 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:56:29,094 INFO active partition set: EMG
+2014-08-07 10:56:31,154 INFO Pool verified
+2014-08-07 10:58:29,842 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 10:58:30,582 INFO active partition set: EMG
+2014-08-07 10:58:32,511 INFO Pool verified
+2014-08-07 10:58:32,708 INFO disabling {'port': 443, 'address': '10.16.118.96'}
+2014-08-07 11:00:59,985 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:01:00,733 INFO active partition set: EMG
+2014-08-07 11:01:03,044 INFO Pool verified
+2014-08-07 11:01:03,243 INFO disabling {'port': 443, 'address': '10.16.118.96'}
+2014-08-07 11:01:40,794 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:01:41,530 INFO active partition set: EMG
+2014-08-07 11:01:43,590 INFO Pool verified
+2014-08-07 11:01:43,796 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:01:43,941 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:04:29,812 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:04:30,603 INFO active partition set: EMG
+2014-08-07 11:04:32,556 INFO Pool verified
+2014-08-07 11:04:32,753 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:04:45,714 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:04:46,456 INFO active partition set: EMG
+2014-08-07 11:04:48,357 INFO Pool verified
+2014-08-07 11:04:48,554 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:05:19,854 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:05:20,605 INFO active partition set: EMG
+2014-08-07 11:05:22,577 INFO down members: [{'port': 443, 'address': '10.16.118.96'}]
+2014-08-07 11:07:36,632 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:07:37,374 INFO active partition set: EMG
+2014-08-07 11:07:39,285 INFO down members: [{'port': 443, 'address': '10.16.118.96'}]
+2014-08-07 11:10:17,260 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:10:18,003 INFO active partition set: EMG
+2014-08-07 11:10:19,942 INFO down members: [{'port': 443, 'address': '10.16.118.96'}]
+2014-08-07 11:10:24,898 INFO mail sent
+2014-08-07 11:23:31,155 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:23:31,893 INFO active partition set: EMG
+2014-08-07 11:23:34,039 INFO Pool verified
+2014-08-07 11:23:34,234 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:26:16,675 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:26:17,489 INFO active partition set: EMG
+2014-08-07 11:26:19,761 INFO Pool verified
+2014-08-07 11:26:19,960 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:26:20,100 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:28:02,674 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:28:03,411 INFO active partition set: EMG
+2014-08-07 11:28:05,401 INFO Pool verified
+2014-08-07 11:28:05,598 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:28:05,742 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=6
+2014-08-07 11:28:35,941 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=6
+2014-08-07 11:29:06,141 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:29:36,339 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=2
+2014-08-07 11:30:06,539 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=2
+2014-08-07 11:30:36,734 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=2
+2014-08-07 11:31:06,931 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:31:37,125 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:32:59,161 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:32:59,899 INFO active partition set: EMG
+2014-08-07 11:33:02,055 INFO Pool verified
+2014-08-07 11:33:02,252 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:33:02,393 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:33:32,591 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:34:02,787 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=2
+2014-08-07 11:34:32,984 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:35:03,191 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:39:44,081 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:39:44,820 INFO active partition set: EMG
+2014-08-07 11:39:46,762 INFO Pool verified
+2014-08-07 11:39:46,959 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:39:47,100 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:40:17,294 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:40:47,492 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:41:17,534 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:41:51,583 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:41:52,313 INFO active partition set: EMG
+2014-08-07 11:41:54,244 INFO Pool verified
+2014-08-07 11:41:54,442 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:41:54,583 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:42:24,627 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:44:41,393 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:44:42,151 INFO active partition set: EMG
+2014-08-07 11:44:44,188 INFO Pool verified
+2014-08-07 11:44:44,387 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:44:44,528 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:45:14,570 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:48:00,912 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:48:01,709 INFO active partition set: EMG
+2014-08-07 11:48:03,659 INFO Pool verified
+2014-08-07 11:48:03,857 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:48:03,998 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:48:34,193 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:49:04,392 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=2
+2014-08-07 11:49:34,593 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:50:04,790 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:50:34,835 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:50:34,982 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:51:05,129 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:51:35,280 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:52:05,430 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:52:28,878 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:52:29,617 INFO active partition set: EMG
+2014-08-07 11:52:31,832 INFO Pool verified
+2014-08-07 11:52:32,027 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:52:32,169 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:53:02,213 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:53:02,361 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:53:32,361 INFO Enabling member: {'port': 443, 'address': '10.16.118.96'}
+2014-08-07 11:53:32,701 INFO disabling {'port': 443, 'address': '10.16.118.97'} in prd.splunk.srch.443
+2014-08-07 11:53:32,844 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarting
+2014-08-07 11:56:42,182 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 11:56:42,920 INFO active partition set: EMG
+2014-08-07 11:56:44,918 INFO Pool verified
+2014-08-07 11:56:45,115 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 11:56:45,257 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:57:15,455 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-07 11:57:45,651 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 11:58:15,693 INFO {'port': 443, 'address': '10.16.118.96'} restarted.  status 200 returned
+2014-08-07 11:58:15,841 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 11:58:45,841 INFO Enabling member: {'port': 443, 'address': '10.16.118.96'}
+2014-08-07 11:58:46,176 INFO disabling {'port': 443, 'address': '10.16.118.97'} in prd.splunk.srch.443
+2014-08-07 11:58:46,317 INFO {'port': 443, 'address': '10.16.118.97'} active_connections=1
+2014-08-07 11:59:16,515 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarting
+2014-08-07 11:59:46,558 INFO {'port': 443, 'address': '10.16.118.97'} restarted.  status 200 returned
+2014-08-07 11:59:46,707 INFO {'port': 443, 'address': '10.16.118.97'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 12:00:16,708 INFO Enabling member: {'port': 443, 'address': '10.16.118.97'}
+2014-08-07 12:00:17,048 INFO disabling {'port': 443, 'address': '10.16.118.98'} in prd.splunk.srch.443
+2014-08-07 12:00:17,191 INFO {'port': 443, 'address': '10.16.118.98'} splunk restarting
+2014-08-07 12:10:05,112 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 12:10:06,568 INFO active partition set: EMG
+2014-08-07 12:10:08,844 INFO Pool verified
+2014-08-07 12:10:09,042 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 12:10:09,184 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-07 12:10:39,231 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarted.  status 200 returned
+2014-08-07 12:10:39,379 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 12:11:09,379 INFO Enabling member: {'port': 443, 'address': '10.16.118.96'}
+2014-08-07 12:11:09,719 INFO disabling {'port': 443, 'address': '10.16.118.97'} in prd.splunk.srch.443
+2014-08-07 12:11:09,861 INFO {'port': 443, 'address': '10.16.118.97'} active_connections=3
+2014-08-07 12:11:40,059 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarting
+2014-08-07 12:12:10,101 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarted.  status 200 returned
+2014-08-07 12:12:10,247 INFO {'port': 443, 'address': '10.16.118.97'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 12:12:40,248 INFO Enabling member: {'port': 443, 'address': '10.16.118.97'}
+2014-08-07 12:12:40,585 INFO disabling {'port': 443, 'address': '10.16.118.98'} in prd.splunk.srch.443
+2014-08-07 12:12:40,728 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-07 12:13:10,923 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=2
+2014-08-07 12:13:41,120 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-07 12:14:11,315 INFO {'port': 443, 'address': '10.16.118.98'} splunk restarting
+2014-08-07 12:14:41,361 INFO {'port': 443, 'address': '10.16.118.98'} splunk restarted.  status 200 returned
+2014-08-07 12:14:41,510 INFO {'port': 443, 'address': '10.16.118.98'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 12:15:11,511 INFO Enabling member: {'port': 443, 'address': '10.16.118.98'}
+2014-08-07 12:15:11,849 INFO disabling {'port': 443, 'address': '10.16.118.100'} in prd.splunk.srch.443
+2014-08-07 12:15:11,991 INFO {'port': 443, 'address': '10.16.118.100'} active_connections=1
+2014-08-07 12:15:42,191 INFO {'port': 443, 'address': '10.16.118.100'} active_connections=1
+2014-08-07 12:16:12,389 INFO {'port': 443, 'address': '10.16.118.100'} active_connections=3
+2014-08-07 12:16:42,586 INFO {'port': 443, 'address': '10.16.118.100'} splunk restarting
+2014-08-07 12:17:12,626 INFO {'port': 443, 'address': '10.16.118.100'} splunk restarted.  status 200 returned
+2014-08-07 12:17:12,774 INFO {'port': 443, 'address': '10.16.118.100'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-07 12:17:42,774 INFO Enabling member: {'port': 443, 'address': '10.16.118.100'}
+2014-08-07 12:17:42,920 INFO prd.splunk.srch.443 members cycled
+2014-08-07 13:28:18,776 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 13:28:19,706 INFO active partition set: EMG
+2014-08-07 13:28:22,023 INFO Pool verified
+2014-08-07 13:28:22,221 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 13:28:42,974 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 13:28:43,752 INFO active partition set: EMG
+2014-08-07 13:28:45,772 INFO Pool verified
+2014-08-07 13:28:45,971 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 13:28:54,786 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 13:28:55,525 INFO active partition set: EMG
+2014-08-07 13:28:57,826 INFO Pool verified
+2014-08-07 13:28:58,025 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 13:29:54,765 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 13:29:55,501 INFO active partition set: EMG
+2014-08-07 13:29:57,426 INFO Pool verified
+2014-08-07 13:29:57,624 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-07 13:30:14,709 INFO Loading config: /Users/x243/git/f5api/splunkf5/splunk_cycle.cfg
+2014-08-07 13:30:15,571 INFO active partition set: EMG
+2014-08-07 13:30:17,574 INFO Pool verified
+2014-08-07 13:30:17,769 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
