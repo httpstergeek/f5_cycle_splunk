@@ -212,7 +212,7 @@ class f5cycle():
             if status['availability_status'] != 'AVAILABILITY_STATUS_GREEN' \
                     or status['enabled_status'] != 'ENABLED_STATUS_ENABLED':
                 downmembers.append(memberobject['member'])
-        return downmembers
+        return dict(downmembers=downmembers, members=members)
 
     def verifypool(self, poolname=None):
         poolstatus = self.poolstatus(poolname)
@@ -273,9 +273,9 @@ if __name__ == '__main__':
         exit(0)
 
     # verifies all members
-    downmembers = splunkf5.verifymembers(poolname)
-    if len(downmembers) > 0:
-        msg = 'down members: %s' % downmembers
+    memberstatus = splunkf5.verifymembers(poolname)
+    if len(memberstatus['downmembers']) > 0:
+        msg = 'down members: %s' % memberstatus['downmembers']
         logger.info(msg)
         sendmail([email['recipients']], email['from'], email['subject'], msg ,relay=email['smtprelay'])
         logger.info('mail sent')
@@ -283,7 +283,7 @@ if __name__ == '__main__':
     logger.info('Pool verified')
 
     # starts managing pool members0
-    for memberobject in members:
+    for memberobject in memberstatus['members']:
         member = memberobject['member']
         current_conn = splunkf5.getconnections(poolname, member)
         logger.info('disabling %s in %s' % (member, poolname))
