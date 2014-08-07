@@ -115,7 +115,7 @@ def getconfig(objfile, stanza):
         for option in options:
             settings[option] = config.get(stanza, option)
     except Exception, e:
-        return dict(messsage=e)
+        return dict(message=e)
     return settings
 
 class f5cycle():
