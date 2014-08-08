@@ -7,6 +7,7 @@ __author__ = 'x243'
 import bigsuds
 import os
 import logging
+import logging.handlers
 import smtplib
 import socket
 import splunklib.client as client
