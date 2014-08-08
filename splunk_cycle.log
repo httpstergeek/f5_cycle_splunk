@@ -204,3 +204,40 @@
 2014-08-07 13:30:15,571 INFO active partition set: EMG
 2014-08-07 13:30:17,574 INFO Pool verified
 2014-08-07 13:30:17,769 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-08 12:11:37,745 INFO Loading config: /Users/x243/git/f5_cycle_splunk/splunk_cycle.cfg
+2014-08-08 12:11:38,956 INFO active partition set: EMG
+2014-08-08 12:11:40,914 INFO Pool verified
+2014-08-08 12:11:41,110 INFO disabling {'port': 443, 'address': '10.16.118.96'} in prd.splunk.srch.443
+2014-08-08 12:11:41,252 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-08 12:12:11,448 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-08 12:12:41,652 INFO {'port': 443, 'address': '10.16.118.96'} active_connections=1
+2014-08-08 12:13:11,853 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarting
+2014-08-08 12:13:43,828 INFO {'port': 443, 'address': '10.16.118.96'} splunk restarted.  status 200 returned
+2014-08-08 12:13:43,981 INFO {'port': 443, 'address': '10.16.118.96'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-08 12:14:13,982 INFO Enabling member: {'port': 443, 'address': '10.16.118.96'}
+2014-08-08 12:14:14,330 INFO disabling {'port': 443, 'address': '10.16.118.97'} in prd.splunk.srch.443
+2014-08-08 12:14:14,473 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarting
+2014-08-08 12:14:45,617 INFO {'port': 443, 'address': '10.16.118.97'} splunk restarted.  status 200 returned
+2014-08-08 12:14:45,762 INFO {'port': 443, 'address': '10.16.118.97'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-08 12:15:15,763 INFO Enabling member: {'port': 443, 'address': '10.16.118.97'}
+2014-08-08 12:15:16,101 INFO disabling {'port': 443, 'address': '10.16.118.98'} in prd.splunk.srch.443
+2014-08-08 12:15:16,243 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:15:46,441 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:16:16,640 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:16:46,834 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:17:17,031 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:17:47,226 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:18:17,422 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:18:47,620 INFO {'port': 443, 'address': '10.16.118.98'} active_connections=1
+2014-08-08 12:19:17,817 INFO {'port': 443, 'address': '10.16.118.98'} splunk restarting
+2014-08-08 12:19:48,940 INFO {'port': 443, 'address': '10.16.118.98'} splunk restarted.  status 200 returned
+2014-08-08 12:19:49,094 INFO {'port': 443, 'address': '10.16.118.98'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-08 12:20:19,094 INFO Enabling member: {'port': 443, 'address': '10.16.118.98'}
+2014-08-08 12:20:19,431 INFO disabling {'port': 443, 'address': '10.16.118.100'} in prd.splunk.srch.443
+2014-08-08 12:20:19,572 INFO {'port': 443, 'address': '10.16.118.100'} active_connections=6
+2014-08-08 12:20:49,770 INFO {'port': 443, 'address': '10.16.118.100'} active_connections=6
+2014-08-08 12:21:19,965 INFO {'port': 443, 'address': '10.16.118.100'} splunk restarting
+2014-08-08 12:21:51,088 INFO {'port': 443, 'address': '10.16.118.100'} splunk restarted.  status 200 returned
+2014-08-08 12:21:51,237 INFO {'port': 443, 'address': '10.16.118.100'} status: AVAILABILITY_STATUS_GREEN, ENABLED_STATUS_DISABLED
+2014-08-08 12:22:21,236 INFO Enabling member: {'port': 443, 'address': '10.16.118.100'}
+2014-08-08 12:22:21,382 INFO prd.splunk.srch.443 members cycled ending run
