@@ -1,6 +1,20 @@
 __author__ = 'x243'
 
-# Currently require a splunk_cycle.cfg file to run
+# !/usr/bin/env python
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the (LGPL) GNU Lesser General Public License as
+# published by the Free Software Foundation; either version 3 of the 
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library Lesser General Public License for more details at
+# ( http://www.gnu.org/licenses/lgpl.html ).
+# written by: Bernardo Macias ( httpstergeek@httpstergeek.com )
+
+# Currently require a splunk_lint.cfg file to run
 #
 #
 
