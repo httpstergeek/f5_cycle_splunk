@@ -1,9 +1,9 @@
 [f5]
-host = bip0319p07
+host = f5device
 user = 
 password = 
-pool = prd.splunk.srch.443
-partition = EMG
+pool = poolname
+partition = Common
 
 [splunk]
 host = localhost
@@ -12,10 +12,10 @@ password =
 retries = 3
 
 [email]
-recipients = beras@nordstrom.com
+recipients = beras@someserver.com
 from = splunkf5@nordstrom.net
 subject= Splunk F5 Cycle: WARNING
-smtprelay = exchange.nordstrom.net
+smtprelay = relay.someserver.net
 
 [runinfo]
 sleep = 30
