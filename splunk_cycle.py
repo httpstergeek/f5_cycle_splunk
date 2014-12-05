@@ -1,5 +1,4 @@
-__author__ = 'x243'
-
+__author__ = 'bmacias84@gmail.com'
 # !/usr/bin/env python
 #
 # This program is free software; you can redistribute it and/or modify
